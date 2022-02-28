@@ -8,14 +8,12 @@
     <title>Port Folio</title>
     <link rel="stylesheet" href="./normalize.css">
     <link rel="stylesheet" href="./style.css">
+    <script type="module" src="https://unpkg.com/@google/model-viewer@1.0.0/dist/model-viewer.min.js"></script>
 </head>
 
 <body>
 
-    <model-viewer camera-controls auto-rotate poster="/icon.png" src="/nameko.gltf" exposure="0.6" alt="pancake"></model-viewer>
-
-    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+    <model-viewer src="/nameko.gltf" alt="pancake" camera-controls ar></model-viewer>
     <script src="./jquery-3.6.0.min.js"></script>
     <script src="./app.js"></script>
 </body>
