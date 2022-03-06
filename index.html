@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0,user-scalable=no">
     <title>Port Folio</title>
     <link rel="stylesheet" href="./normalize.css">
     <link rel="stylesheet" href="./style.css">
@@ -13,12 +13,207 @@
 </head>
 
 <body>
+    <div id="header" class="header-big">
+        <h1 id="toTop">のーぶのポートフォリオ</h1>
+        <table id="nav">
+            <tr>
+                <td id="toProN">プロジェクトN</td>
+                <td id="toMovie">動画制作</td>
+                <td id="toBlender">3Dモデル</td>
+                <td id="toWeb">webサイト</td>
+            </tr>
+        </table>
+    </div>
+    <div id="margin"></div>
+    <div id="direction">
+        <p>このサイトでは、自分の1年間のN高生活の成果をジャンル別にまとめて紹介します。<br>上の目次から好きなところに飛んでね！
+        </p>
+    </div>
+    <div id="selfIntro">
+        <h1>まずは自己紹介(｀・ω・´)</h1>
+        <table>
+            <tr>
+                <td>名前</td>
+                <td>
+                    田中
+                    <ruby><rb> 聡月</rb><rt>さつき</rt>
+                    </ruby>
+                </td>
+            </tr>
+            <tr>
+                <td>slackの名前</td>
+                <td>のーぶ
+                    <img id="icon" src="./img/star.jpg" alt="slackのアイコン">
+                </td>
+            </tr>
+            <tr>
+                <td>所属</td>
+                <td>N高5期・通学週3生</td>
+            </tr>
+            <tr>
+                <td>誕生日</td>
+                <td>11月8日</td>
+            </tr>
+            <tr>
+                <td>性別</td>
+                <td>FtX無性（自分、性別要らなくね？って思ってる）</td>
+            </tr>
+            <tr>
+                <td>好きなゲーム</td>
+                <td>原神 ーGenshin Inpactー</td>
+            </tr>
+            <tr>
+                <td>好きな食べ物</td>
+                <td>甘すぎない甘いもの</td>
+            </tr>
+            <tr>
+                <td>嫌いな食べ物</td>
+                <td>ありすぎて書き切れないので割愛</td>
+            </tr>
+            <tr>
+                <td>好きな言語</td>
+                <td>JavaScript（たのしい）</td>
+            </tr>
+            <tr>
+                <td>嫌いな言語</td>
+                <td>CSS（わからん）</td>
+            </tr>
+            <tr>
+                <td>好きなこと</td>
+                <td>Blenderで目についた適当なものを色々作ること</td>
+            </tr>
+            <tr>
+                <td>将来の夢</td>
+                <td>小学生向けの紙媒体ではない教材を作りたい<br>　⇒今のうちに考えたものを形にする経験をいっぱいする！
+                </td>
+            </tr>
+        </table>
+    </div>
 
-    <model-viewer id="nameko" src="https://github.com/Satsuki-mito/portFolio/sample.glb" alt="nameko" camera-controls ar
-        auto-rotate>
-    </model-viewer>
+    <div id="proN">
+        <h1>プロジェクトN</h1>
+        <h2>1Q(4月〜6月)</h2>
+        <div class="keyVisual">
+            <img id="proN1Q" src="./img/2021.1Q.KV.png" alt="1Qキービジュアル">
+        </div>
+        <iframe class="left" src="https://www.youtube.com/embed/GQyAEoSOlas" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>宇宙で生活せざるを得ない状況になったときに楽しめるエンターテインメントを考えた。</p>
+        <h2>2Q(7月〜9月)</h2>
+        <h2>3Q(10月〜12月)</h2>
+        <h2>4Q(1月〜3月)</h2>
+    </div>
+    <div id="movie">
+        <h1>動画制作</h1>
+        <h2>After Effects</h2>
+        <section id="pierceTheClearSky">
+            <h3>3分て、長いのね……_:(´ `」 ∠):_</h3>
+            <p>傘村トータさんの『晴天を穿つ』のオリジナルMV。5秒作るのに2時間かかるとは思わなかったです。</p>
+            <table>
+                <tr>
+                    <td><img class="left" src="./img/ae.png" alt="AE作業風景"></td>
+                    <td>
+                        <iframe class="left" src="https://www.youtube.com/embed/HEOSNkOr4To" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </td>
+                </tr>
+                <tr>
+                    <td>After Effectsでの作業風景。</td>
+                    <td>完成した動画。</td>
+                </tr>
+            </table>
+        </section>
+        <h2>Blender</h2>
+    </div>
+    <div id="blender">
+        <h1>Blender</h1>
+        <section id="cup">
+            <h3>初挑戦！</h3>
+            <p>初めてBlenderを触ってみました。チュートリアル動画とにらめっこしながら、動画時間の倍くらい時間を掛けて作りました。すっごい3D酔いしながら、ショートカットキーを覚えながらようやく画像を書き出してめっちゃ感動しました。
+            </p>
+            <table>
+                <tr>
+                    <td>
+                        <iframe class="left" src="https://www.youtube.com/embed/T603W11Fkj4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </td>
+                    <td><img class="left" src="./img/cup.png" alt="コップ"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            参考にさせて頂いた動画。<br>【Blender初心者講座】グラス作る 前編/CG制作の基本【コメ欄に追記アリ】
+                        </p>
+                    </td>
+                    <td>
+                        <a href="https://www.youtube.com/channel/UCrAPkTHnzflhTcXEiKcSuZg" target="_blank" rel="noopener">
+                            ML/chさんのチャンネルへ
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <section id="recorder">
+            <h3>自力で制作(｀・ω・´)ｷﾘｯ</h3>
+            <p>
+                初挑戦がそこそこ上手くいったので、自力で作ったろうと。家から学校にリコーダー持ち込んで、どうにか形になったソプラノリコーダー。
+            </p>
+            <table>
+                <tr>
+                    <td>
+                        <img class="left" src="./img/recorder.png" alt="リコーダー">
+                    </td>
+                    <td class="model">リコーダーの3Dモデルビューワーを埋めこむ</td>
+                </tr>
+                <tr>
+                    <td>なんか薄暗い……。上手くいかなかった(´・ω・｀)</td>
+                    <td></td>
+                </tr>
+            </table>
+        </section>
+        <section id="shieldOfHylia">
+            <h3>厨二病万歳！</h3>
+            <p>ゼルダの伝説・ブレスオブザワイルドよりハイリアの盾を作りました。王家の紋章って……カッコいいですよね（）</p>
+            <table>
+                <tr>
+                    <td><img class="left" src="./img/shieldOfHylia.jpg" alt="ハイリアの盾"></td>
+                    <td class="model" rowspan="2">ハイリアの盾の3Dモデルビューワーを埋めこむ</td>
+                </tr>
+                <tr>
+                    <td>参考画像（ゼルダの伝説・ブレスオブザワイルドより）</td>
+                    <td></td>
+                </tr>
+            </table>
+        </section>
+        <section id="nagisa">
+            <h3>キャラクターモデリング初挑戦！</h3>
+            <p>
+                <a href="https://n-highschool.slack.com/archives/C01ENFPRRAR/p1618318840076600" target="_blank" rel="noopener noreferrer">デザイン研究室</a>というチャンネルでネットコースの方が投稿されていた青磁なぎさちゃんの3Dモデルを作りました。
+            </p>
+            <table>
+                <tr>
+                    <td><img class="left" src="./img/nagisa.jpg" alt="なぎさ"></td>
+                    <td rowspan="3" class="model">なぎさの3Dモデルビューワーを埋めこむ</td>
+                </tr>
+                <tr>
+                    <td><iframe class="left" src="https://www.youtube.com/embed/BBtgjTiL1XQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>参考にさせて頂いた動画。<br>【Blender 2.9 Tutorial】キャラクターモデリング解説 #1</td>
+                    <td></td>
+                </tr>
+            </table>
+        </section>
+        <!-- <model-viewer id="nameko" src="https://github.com/Satsuki-mito/portFolio/sample.glb" alt="nameko" camera-controls ar auto-rotate></model-viewer> -->
+    </div>
+    <div id="web">
+        <h1>webサイト</h1>
+        <h2>黒子のバスケ　キャラクター紹介サイト</h2>
+        <iframe class="window" src="https://satsuki-mito.github.io/kurobas-characters/" frameborder="0"></iframe>
+        <h2>パスワード機構</h2>
+        <iframe src="https://satsuki-mito.github.io/password/" frameborder="0" class="window"></iframe>
+    </div>
     <script src="./jquery-3.6.0.min.js"></script>
     <script src="./app.js"></script>
 </body>
 
 </html>
+<!-- section#>h2+p+table>tr*2>td*2 -->
