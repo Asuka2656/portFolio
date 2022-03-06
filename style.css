@@ -1,4 +1,97 @@
-#nameko{
-  width: 60%;
-  height: 640px;
+@media screen and (min-width: 960px) {
+    /* パソコン用 */
+    body {
+        background-color: rgb(250, 210, 217);
+    }
+    /*全体の背景 */
+    #margin,
+    #direction,
+    #selfIntro,
+    #proN,
+    #movie,
+    #blender,
+    #web {
+        padding: 1% 5%;
+    }
+    /* 画面全体の余白 */
+    .header-big {
+        width: 100%;
+        position: fixed;
+        background-color: rgba(186, 230, 220, 0.5);
+        display: flex;
+        justify-content: space-between;
+        padding: 4% 1%;
+        transition: 300ms;
+    }
+    /* 初期段階のヘッダー */
+    .header-small {
+        width: 100%;
+        position: fixed;
+        background-color: rgba(186, 230, 220, 0.95);
+        display: flex;
+        justify-content: space-between;
+        padding: 1%;
+        transition: 300ms;
+        z-index: 2;
+    }
+    /* 縮小後のヘッダー */
+    table#nav {
+        width: 60%;
+        margin: 1%;
+    }
+    /* スクロールリンク全体 */
+    #toProN,
+    #toMovie,
+    #toBlender,
+    #toWeb {
+        padding: 0% 3%;
+    }
+    /* スクロールリンクの中身 */
+    #icon {
+        width: 5%;
+    }
+    .keyVisual {
+        z-index: auto;
+        float: left;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        height: 30vh;
+        margin-bottom: 5%;
+    }
+    /* キービジュアルの親のdiv */
+    .keyVisual img {
+        position: absolute;
+        z-index: 0;
+        width: 100%;
+        top: 0%;
+    }
+    /* キービジュアルそのもの */
+    .left {
+        width: 560px;
+        height: 315px;
+    }
+    /* 暫定imgs */
+    .model {
+        background-color: #95afbd;
+    }
+    /* model-viewerぶち込む領域を仮確保 */
+    .window {
+        width: 100%;
+        height: 70vh;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    /* タブレット用 */
+    body {
+        background-color: rgb(255, 255, 153);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* スマホ用 */
+    body {
+        background-color: rgb(168, 224, 247);
+    }
 }
